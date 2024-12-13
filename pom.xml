@@ -52,18 +52,11 @@
             <optional>true</optional>
         </dependency>
 
-		<!-- <dependency>
+		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
 		    <scope>runtime</scope>
 			<version>8.0.33</version>
-		</dependency> -->
-
-		<dependency>
-		    <groupId>org.postgresql</groupId>
-		    <artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
-		    <version>42.7.4</version>
 		</dependency>
 
 		<dependency>
