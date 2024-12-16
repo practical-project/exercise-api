@@ -1,0 +1,15 @@
+services:
+  exercise-api:
+    build:
+      context: .
+    image: exercise-api
+    container_name: exercise-api-container
+    ports:
+      - "8080:8080"
+    env_file: 
+      - .env
+    networks:
+      - exercise-network
+
+networks:
+  exercise-network:
